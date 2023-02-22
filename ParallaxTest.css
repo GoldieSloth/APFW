@@ -15,17 +15,17 @@
   }
   
   .layer1 {
-    background-image: url(/TestImages/_0000s_0002_Layer1.png);
+    background-image: url(https://raw.githubusercontent.com/GoldieSloth/APFW/main/TestImages/_0000s_0002_Layer1.png);
     z-index: 3;
   }
   
   .layer2 {
-    background-image: url(/TestImages/_0000s_0001_Layer2.png);
+    background-image: url(https://raw.githubusercontent.com/GoldieSloth/APFW/main/TestImages/_0000s_0001_Layer2.png);
     z-index: 2;
   }
   
   .layer3 {
-    background-image: url(/TestImages/_0000s_0000_Layer3.png);
+    background-image: url(https://raw.githubusercontent.com/GoldieSloth/APFW/main/TestImages/_0000s_0000_Layer3.png);
     z-index: 1;
   }
   
