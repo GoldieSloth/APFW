@@ -5,10 +5,22 @@ $terColor: #1a5a99;
 $fontCol: #bbbbbb;
 $headerCol: #555555;
 
+//@mixin 
+
 h1, h2, h3, h4, h5, h6{
     color: $headerCol;
 }
 
 p{
     color: $fontCol;
+}
+
+.jumbotron{
+    background-color: $terColor;
+    padding: 50px 20px;
+}
+
+.jumbotron h1{
+    font-size: 48px;
+    font-weight: bold;
 }

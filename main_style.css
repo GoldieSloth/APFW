@@ -4,4 +4,14 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #bbbbbb;
+}
+
+.jumbotron {
+  background-color: #1a5a99;
+  padding: 50px 20px;
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+  font-weight: bold;
 }/*# sourceMappingURL=main_style.css.map */
