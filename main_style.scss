@@ -24,3 +24,13 @@ p{
     font-size: 48px;
     font-weight: bold;
 }
+
+nav{
+    display: flex;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
