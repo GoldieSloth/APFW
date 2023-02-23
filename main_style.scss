@@ -12,7 +12,8 @@ $headerCol: #555555;
 }
 
 header, main, footer{
-    z-index: 4;
+    z-index: 1;
+    position: absolute;
 }
 
 h1, h2, h3, h4, h5, h6{
