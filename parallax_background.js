@@ -8,7 +8,7 @@ background.addEventListener('mousemove', e => {
   const centerY = window.innerHeight / 2;
 
   layers.forEach((layer, index) => {
-    const speed = index / 5;
+    const speed = index / 15;
     const x = (mouseX - centerX) * speed;
     const y = (mouseY - centerY) * speed;
 
