@@ -7,6 +7,10 @@ $headerCol: #555555;
 
 //@mixin 
 
+.hidden{
+    display: none;
+}
+
 header, main, footer{
     z-index: 4;
 }
