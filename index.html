@@ -10,21 +10,18 @@
     <div>
         <p><button onClick="copyText('mainCSS')">Use the CSS</button> for the main style</p>
         <textarea class="hidden" id="mainCSS">&lt;link href="https://goldiesloth.github.io/APFW/main_style.css" rel="stylesheet" type="text/css"&gt;</textarea>
-        <p>Use the <span onClick="copyText('parCSS')">CSS</span> for the Parallax Background</p>
+        <p><button onClick="copyText('parCSS')">Use the CSS</button> for the Parallax Background</p>
         <textarea class="hidden" id="parCSS">&lt;link href="https://goldiesloth.github.io/APFW/ParallaxTest.css" rel="stylesheet" type="text/css"&gt;</textarea>
-        <p>Use the <span onClick="copyText('parJS')">JS</span> for the Parallax Background</p>
+        <p><button onClick="copyText('parJS')">Use the JS</button> for the Parallax Background</p>
         <textarea class="hidden" id="parJS">&lt;link href="https://goldiesloth.github.io/APFW/parallax_background.js" rel="stylesheet" type="text/css"&gt;</textarea>
     </div>
     <script>
         function copyText(id){
             const textarea = document.getElementById(id);
             const text = textarea.value;
-            navigator.clipboard.writeText(text).then(function() {
-                console.log('Text copied to clipboard');
-            }, function(err) {
-                console.error('Failed to copy text: ', err);
-            });
-            alert("Copied the text: "+copyText.value)
+            navigator.clipboard.writeText(text).then(function(){
+                alert("Copied the Code.")
+            })
         }
     </script>
 </body>
