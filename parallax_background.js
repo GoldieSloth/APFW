@@ -4,7 +4,7 @@ const layers = Array.from(background.querySelectorAll('.layer'));
 const backgroundwidth = 1920;
 
 const scaleFacs = layers.map((layer, index)=>{
-    const width = backgroundwidth * (index+1);
+    const width = backgroundwidth * (1+(0.1*index));
     const height = (width/16)*9;
     return height/1080;
 })
