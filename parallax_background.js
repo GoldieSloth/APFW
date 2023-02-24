@@ -1,4 +1,4 @@
-const background = document.querySelector('.background');
+const background = document.querySelector('body');
 const layers = Array.from(background.querySelectorAll('.layer'));
 
 const backgroundwidth = 1920;
