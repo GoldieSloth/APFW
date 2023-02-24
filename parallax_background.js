@@ -1,4 +1,3 @@
-const background = document.querySelector('body');
 const layers = Array.from(background.querySelectorAll('.layer'));
 
 const backgroundwidth = 1920;
@@ -9,7 +8,7 @@ const scaleFacs = layers.map((layer, index)=>{
     return height/1080;
 })
 
-background.addEventListener('mousemove', e => {
+window.addEventListener('mousemove', e => {
   const mouseX = e.clientX;
   const mouseY = e.clientY;
   const centerX = window.innerWidth / 2;
