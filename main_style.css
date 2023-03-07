@@ -1,3 +1,12 @@
+:root{
+  --priColor: #DAA520;
+  --secColor: #36d9a1;
+  --terColor: #1a5a99;
+
+  --fontCol: #bbbbbb;
+  --headerCol: #555555;
+}
+
 .hidden {
   display: none;
 }
@@ -8,15 +17,15 @@ div.content {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #555555;
+  color: var(--headerCol);
 }
 
 p {
-  color: #bbbbbb;
+  color: var(--fontCol);
 }
 
 .jumbotron {
-  background-color: #1a5a99;
+  background-color: var(--terColor);
   padding: 50px 20px;
 }
 
@@ -33,4 +42,4 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-}/*# sourceMappingURL=main_style.css.map */
+}
