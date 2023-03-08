@@ -8,6 +8,10 @@
 }
 
 /* Device non-specific designs */
+body{
+  margin: 0;
+}
+
 .hidden {
   display: none;
 }
@@ -30,7 +34,13 @@ p {
   padding: 50px 20px;
 }
 
+.jumbotron .container{
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .jumbotron h1 {
+  text-align: center;
   font-size: 48px;
   font-weight: bold;
 }
