@@ -81,3 +81,12 @@ a, nav button {
 @media only screen and (min-width: 1200px) {
 	
 }
+
+@media print{
+  @page{
+    Size: A4;
+  }
+  .background{
+    display: none;
+  }
+}
