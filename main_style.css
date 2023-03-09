@@ -16,7 +16,7 @@ body{
   display: none;
 }
 
-div.content {
+header, main, footer{
   position: relative;
   z-index: 1;
 }
