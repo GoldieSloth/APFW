@@ -30,6 +30,8 @@ p {
 }
 
 .jumbotron {
+  position: relative;
+  z-index: 3;
   background-color: var(--terColor);
   padding: 50px 20px;
 }
