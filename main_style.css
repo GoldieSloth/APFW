@@ -7,9 +7,24 @@
   --headerCol: #555555;
 }
 
+/* Define Roboto font using @font-face */
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  font-style: normal;
+}
+
+/* Define a suitable contrast font using @font-face */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  font-style: normal;
+}
+
 /* Device non-specific designs */
 body{
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hidden {
@@ -23,6 +38,7 @@ header, main, footer{
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--headerCol);
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
